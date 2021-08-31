@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2021-08-28&format=json&key=ae54680e2ca44da79c082108212808&q=ll
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 29 Aug 2021 14:06:40 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-SG1-627
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - PK
+      Cache-Control:
+      - public, max-age=180
+      X-Wwo-Qpd-Left:
+      - '498'
+      Cdn-Proxyver:
+      - '1.0'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - '08/29/2021 22:06:40'
+      Cdn-Edgestorageid:
+      - '714'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 1ebd17b69b2e321637cb5499e27d9c65
+      Cdn-Cache:
+      - MISS
+    body:
+      encoding: ASCII-8BIT
+      string: '{ "data": { "error": [ {"msg": "Unable to find any matching weather
+        location to the query submitted!" } ] }}'
+  recorded_at: Sun, 29 Aug 2021 14:06:40 GMT
+recorded_with: VCR 6.0.0

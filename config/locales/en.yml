@@ -1,0 +1,59 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+en:
+  invalid_token: 'Invalid API token'
+  missing_token: 'Missing API token'
+  not_found: "%{record} not found."
+  resource_label: 'Resource'
+  token_expired: 'Signature has expired'
+  fake_token: 'Not enough or too many segments'
+  invalid_credentials: 'Invalid Credentials'
+  signed_up_successfully: "You've signed up successfully"
+  something_went_wrong: 'Something Went Wrong'
+  profile_updated: 'Profile updated successfully'
+  event_updated: 'Event updated successfully'
+  profile_updated_fail: 'Failed to update profile'
+  profile_deleted: 'Profile deleted successfully'
+  profile_deleted_fail: 'Failed to delete profile'
+  event_deleted: 'Jog event deleted successfully'
+  cannot_take_following_action: 'You are not authorized to access this page.'
+  failed_to_add_user: 'Failed to add user'
+  failed_to_add_jog_event: 'Failed to add jog event'
+  failed_to_update_user: 'Failed to update user'
+  failed_to_delete_user: 'Failed to delete user'
+  user_label: 'User'
+  event_added: 'Jog event added successfully!'
+  greater_date: 'Date should be less than current time'
+  invalid_date: 'Invalid date provided'
+  invalid_report_arguments: 'Invalid year or month provided'
+  invalid_filters_provided: 'Invalid Filters Provided'
+  invalid_user_id_provided: 'Invalid user_id provided'

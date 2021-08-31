@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.worldweatheronline.com/premium/v1/past-weather.ashx?date=2021-08-21&format=json&key=ae54680e2ca44da79c082108212808&q=Lahore
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 29 Aug 2021 14:30:39 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-SG1-627
+      Cdn-Pullzone:
+      - '61832'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - PK
+      Cache-Control:
+      - public, max-age=180
+      X-Wwo-Qpd-Left:
+      - '495'
+      Cdn-Proxyver:
+      - '1.0'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - '08/29/2021 22:28:41'
+      Cdn-Edgestorageid:
+      - '714'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - e3007fa2d803c9b30622017d074bc321
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data":{"request":[{"type":"City","query":"Lahore, Pakistan"}],"weather":[{"date":"2021-08-21","astronomy":[{"sunrise":"05:32
+        AM","sunset":"06:39 PM","moonrise":"06:18 PM","moonset":"03:53 AM","moon_phase":"Waxing
+        Gibbous","moon_illumination":"91"}],"maxtempC":"30","maxtempF":"86","mintempC":"20","mintempF":"68","avgtempC":"28","avgtempF":"82","totalSnow_cm":"0.0","sunHour":"12.0","uvIndex":"6","hourly":[{"time":"0","tempC":"28","tempF":"82","windspeedMiles":"11","windspeedKmph":"17","winddirDegree":"145","winddir16Point":"SE","weatherCode":"353","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0025_light_rain_showers_night.png"}],"weatherDesc":[{"value":"Light
+        rain shower"}],"precipMM":"0.3","precipInches":"0.0","humidity":"72","visibility":"10","visibilityMiles":"6","pressure":"1005","pressureInches":"30","cloudcover":"48","HeatIndexC":"31","HeatIndexF":"88","DewPointC":"22","DewPointF":"72","WindChillC":"28","WindChillF":"82","WindGustMiles":"15","WindGustKmph":"24","FeelsLikeC":"31","FeelsLikeF":"88","uvIndex":"1"},{"time":"300","tempC":"27","tempF":"80","windspeedMiles":"8","windspeedKmph":"13","winddirDegree":"133","winddir16Point":"SE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"}],"weatherDesc":[{"value":"Partly
+        cloudy"}],"precipMM":"0.6","precipInches":"0.0","humidity":"79","visibility":"10","visibilityMiles":"6","pressure":"1005","pressureInches":"30","cloudcover":"73","HeatIndexC":"29","HeatIndexF":"85","DewPointC":"23","DewPointF":"73","WindChillC":"27","WindChillF":"80","WindGustMiles":"12","WindGustKmph":"19","FeelsLikeC":"29","FeelsLikeF":"85","uvIndex":"1"},{"time":"600","tempC":"27","tempF":"80","windspeedMiles":"8","windspeedKmph":"13","winddirDegree":"109","winddir16Point":"ESE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
+        cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"78","visibility":"10","visibilityMiles":"6","pressure":"1006","pressureInches":"30","cloudcover":"54","HeatIndexC":"30","HeatIndexF":"85","DewPointC":"23","DewPointF":"73","WindChillC":"27","WindChillF":"80","WindGustMiles":"10","WindGustKmph":"17","FeelsLikeC":"30","FeelsLikeF":"85","uvIndex":"7"},{"time":"900","tempC":"29","tempF":"84","windspeedMiles":"11","windspeedKmph":"18","winddirDegree":"116","winddir16Point":"ESE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"}],"weatherDesc":[{"value":"Partly
+        cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"66","visibility":"10","visibilityMiles":"6","pressure":"1008","pressureInches":"30","cloudcover":"42","HeatIndexC":"32","HeatIndexF":"90","DewPointC":"22","DewPointF":"72","WindChillC":"29","WindChillF":"84","WindGustMiles":"13","WindGustKmph":"21","FeelsLikeC":"32","FeelsLikeF":"90","uvIndex":"7"},{"time":"1200","tempC":"30","tempF":"86","windspeedMiles":"13","windspeedKmph":"22","winddirDegree":"113","winddir16Point":"ESE","weatherCode":"176","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"}],"weatherDesc":[{"value":"Patchy
+        rain possible"}],"precipMM":"0.0","precipInches":"0.0","humidity":"62","visibility":"10","visibilityMiles":"6","pressure":"1008","pressureInches":"30","cloudcover":"50","HeatIndexC":"33","HeatIndexF":"91","DewPointC":"22","DewPointF":"71","WindChillC":"30","WindChillF":"86","WindGustMiles":"16","WindGustKmph":"25","FeelsLikeC":"33","FeelsLikeF":"91","uvIndex":"6"},{"time":"1500","tempC":"27","tempF":"81","windspeedMiles":"10","windspeedKmph":"17","winddirDegree":"107","winddir16Point":"ESE","weatherCode":"122","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"}],"weatherDesc":[{"value":"Overcast"}],"precipMM":"0.1","precipInches":"0.0","humidity":"74","visibility":"10","visibilityMiles":"6","pressure":"1007","pressureInches":"30","cloudcover":"89","HeatIndexC":"30","HeatIndexF":"87","DewPointC":"22","DewPointF":"72","WindChillC":"27","WindChillF":"81","WindGustMiles":"12","WindGustKmph":"19","FeelsLikeC":"30","FeelsLikeF":"87","uvIndex":"6"},{"time":"1800","tempC":"25","tempF":"76","windspeedMiles":"7","windspeedKmph":"11","winddirDegree":"76","winddir16Point":"ENE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"}],"weatherDesc":[{"value":"Partly
+        cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"82","visibility":"10","visibilityMiles":"6","pressure":"1007","pressureInches":"30","cloudcover":"81","HeatIndexC":"27","HeatIndexF":"81","DewPointC":"23","DewPointF":"73","WindChillC":"25","WindChillF":"76","WindGustMiles":"9","WindGustKmph":"14","FeelsLikeC":"27","FeelsLikeF":"81","uvIndex":"1"},{"time":"2100","tempC":"20","tempF":"68","windspeedMiles":"5","windspeedKmph":"8","winddirDegree":"36","winddir16Point":"NE","weatherCode":"116","weatherIconUrl":[{"value":"http://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"}],"weatherDesc":[{"value":"Partly
+        cloudy"}],"precipMM":"0.0","precipInches":"0.0","humidity":"78","visibility":"10","visibilityMiles":"6","pressure":"1007","pressureInches":"30","cloudcover":"44","HeatIndexC":"23","HeatIndexF":"74","DewPointC":"23","DewPointF":"73","WindChillC":"20","WindChillF":"68","WindGustMiles":"6","WindGustKmph":"10","FeelsLikeC":"20","FeelsLikeF":"68","uvIndex":"1"}]}]}}'
+  recorded_at: Sun, 29 Aug 2021 14:30:38 GMT
+recorded_with: VCR 6.0.0
